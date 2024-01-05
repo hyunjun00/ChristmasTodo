@@ -10,9 +10,11 @@ img {
     background-size: contain;
 }
 
-body {
-    background-color: black;
+.hidden {
+    display: none;
 }
+
+
 
 h1 {
     position: absolute;

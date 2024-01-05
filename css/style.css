@@ -7,17 +7,24 @@ img {
     right: 0px;
     bottom: 0px;
     z-index: -1;
-    opacity: 80%;
-    object-fit: contain;
+    background-size: contain;
 }
 
 body {
     background-color: black;
 }
 
+h1 {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    color:#fff;
+}
+
 #clock {
     color:#fff;
     position: absolute;
-    left: 40%;
-    top: 30%;
+    left: 33.5%;
+    top: 20%;
+    font-size: 64px;
 }

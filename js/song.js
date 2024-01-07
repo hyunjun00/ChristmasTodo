@@ -51,14 +51,17 @@ const songs=[
     },
 ];
 
+const musicNote=["🎼","🎵","🎶"];
+
 const song=document.querySelector("#song span:first-child");
 const title=document.querySelector("#song span:nth-child(2)");
 const singer=document.querySelector("#song span:last-child");
 const br=document.createElement("br");
 const recomSong=songs[Math.floor(Math.random()*songs.length)];
+const randMusicNote=musicNote[Math.floor(Math.random()*musicNote.length)];
 
-song.innerText=recomSong.song;
-title.innerText=recomSong.title;
-singer.innerText=`-${recomSong.singer}-`;
+song.innerText=`${randMusicNote}${recomSong.song}`;
+title.innerText=`-${recomSong.title}-`;
+singer.innerText=`🎤${recomSong.singer}`;
 
 song.appendChild(br);

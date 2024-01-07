@@ -45,12 +45,12 @@ h1 {
 #login-form input {
     position: absolute;
     left: 37.3%;
-    top: 47%;
+    top: 44%;
     width: 430px;
     height: 70px;
     border: 0;
     background-color: transparent;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -68,13 +68,43 @@ h1 {
     font-size: 3rem;
     color: white;
 }
-/*
+
 #plan-list {
     list-style: none;
+    position: absolute;
+    left: 32.45%;
+    top: 58%;
+    width: 560px;
+    height: 80px;
 }
 
 #plan-list li {
     float: left;
     margin-right: 20px;
+    font-size: 1.5rem;
+    color: white;
 }
-*/
+
+#plan-list li button {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    transform: translateY(-28%);
+}
+
+#plan-form input{
+    position: absolute;
+    left: 37.3%;
+    top: 52%;
+    width: 430px;
+    height: 60px;
+    border: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
+}
+
+#plan-form input::placeholder {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}

@@ -7,14 +7,20 @@
     <title>Until Christmas</title>
 </head>
 <body>
+    <div id="bgdark"></div>
     <h1>Time Until Christmas...</h1>
     <h2 id="clock"></h2>
-    <form class="login-form">
+    <form id="login-form" class="hidden">
         <input required placeholder="What is your name?" />
     </form>
     <h3 id="greeting" class="hidden"></h3>
+    <form id="plan-form">
+        <input text="text" placeholder="Write a plan" required/>
+    </form>
+    <ul id="plan-list"></ul>
     <script src="js/greeting.js"></script>
     <script src="js/christmasclock.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/plan.js"></script>
 </body>
 </html>
